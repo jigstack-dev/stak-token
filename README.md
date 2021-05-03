@@ -6,6 +6,8 @@ Code based on OpenZepellin's SDK, audited by [CyberUnit](https://cyberunit.tech)
 Estimated gas limit: 730599
 Deploy price at 150 gwei: 0.10959 ETH
 
-Contract deployed [on Goerli](https://goerli.etherscan.io/token/0x19403ec491d7390d36cf374261ad36ed76a6fffa).
-
 Contract deployed [on Mainnet](https://etherscan.io/token/0x1f8a626883d7724dbd59ef51cbd4bf1cf2016d13).
+
+Contract deployed [on Rinkeby](https://rinkeby.etherscan.io/token/0xfaa8d25c42f0967266934bc062f0493f826afa9d).
+
+Contract deployed [on Goerli](https://goerli.etherscan.io/token/0x19403ec491d7390d36cf374261ad36ed76a6fffa).
