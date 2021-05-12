@@ -1,6 +1,8 @@
 # stak-token
 Smart contract for the STAK governance token.
 
+Code based on OpenZepellin's SDK, audited by [CyberUnit](https://cyberunit.tech).
+
 Estimated gas limit: 730599
 Deploy price at 150 gwei: 0.10959 ETH
 
