@@ -1,0 +1,26 @@
+# This workflow is a wrapper for slither, a static vulnerability tool for Solidity smart contracts.
+
+name: Slither Analysis
+on:
+    push:
+      tags:
+        - 'slither*' # Push events to matching v*, i.e. v1.0, v20.15.10
+
+jobs:
+  main_job:
+    runs-on: ubuntu-latest
+    name: Solidity Security 
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: Slither Static Analysis
+        uses: luisfontes19/slither-static-analysis-action@v0.3.2
+        with:
+          slither-version: '0.6.13'
+          run-npm-install: true
+          high-threshold: 1
+          medium-threshold: 5
+          low-threshold: 0
+          optimization-threshold: 1
+          informative-threshold: 10
+          projectPath: "."
